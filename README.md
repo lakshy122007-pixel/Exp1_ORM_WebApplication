@@ -20,8 +20,11 @@ Execute Django admin and create details for 5 Car
 
 ## PROGRAM
 models.py
+
 from django.db import models
+
 from django.contrib import admin
+
 class Student(models.Model):
     student_name = models.CharField(max_length=20, help_text="Enter Student Name")
     age = models.IntegerField(help_text="Enter age between 18 to 22")
